@@ -1,5 +1,4 @@
 // datatable
-
 $(document).ready(function () {
 	var table = $("table.display").DataTable({
 		lengthChange: true,
@@ -7,7 +6,6 @@ $(document).ready(function () {
 			[5, 10, 25, 50, -1],
 			[5, 10, 25, 50, "All"],
 		],
-		// buttons: [ 'copy','csv','print', 'excel', 'pdf', 'colvis' ],
 		searching: true,
 		language: {
 			searchPlaceholder: "Search",
@@ -35,7 +33,6 @@ $(document).ready(function () {
 			"<'row'<'col-md-12'tr>>" +
 			"<'row'<'col-md-5'i><'col-md-7'p>>",
 	});
-
 	table.buttons().container().appendTo(".tabledisplay_wrapper .col-md-6:eq(0)");
 });
 // chart js
