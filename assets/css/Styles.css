@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  transition: all ease-in-out 0.5s;
+  scroll-behavior: smooth;
+  background-color: #f0f0f0;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand {
+  font-size: x-large;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-user-icon {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.sidenav {
+  min-height: calc(100vh - 60px);
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+}
+.sidenav ul li {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 15%;
+  padding: 5px;
+}
+.sidenav ul li a {
+  color: #fff;
+  width: 100%;
+}
+.sidenav ul li a i {
+  font-size: 25px;
+}
+.sidenav ul li a span {
+  font-size: medium;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    position: fixed;
+    z-index: 100;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+.main-dahboard .card .dashcard-content h5 {
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+}
+.main-dahboard .card .dashcard-content h6 {
+  margin: 5px 0px 0 0;
+  padding: 0;
+  font-size: x-large;
+}
+.main-dahboard .card .dashcard-icon {
+  font-size: xx-large;
+}
+.main-dahboard .card .dashcard-icon .fab, .main-dahboard .card .dashcard-icon .fa {
+  font-size: xx-large !important;
+  color: #e3e3e3;
+}/*# sourceMappingURL=Styles.css.map */
